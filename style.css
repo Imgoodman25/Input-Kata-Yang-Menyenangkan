@@ -45,23 +45,33 @@ body{
 .text .alat1{
     margin:auto;
     width: 80%;
+    height: 42px;
+    border-radius: 20px;
+    overflow:hidden;
     background-color: white;
     padding: 10px;
+    /* overflow-y: auto; */
+}
+.isi{
+    /* background-color: aqua; */
 }
 .isi span{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     margin-left: 10px;
+    display: inline-block;
 }
 .gabungan{
-    /* background-color: white; */
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 70%;
+    width: 45%;
+    overflow: auto;
+    /* position: absolute; */
 }
 .input{
+    border-radius: 20px;
     display: flex;
     background-color: white;
     align-items: center;
@@ -81,11 +91,11 @@ body{
 .alat2 input{
     outline: none;
     border: none;
-    padding: 10px;
-    width: 700px;
-    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    width: 500px;
+    font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
 }
 .footer{
     margin-top: 300px;
@@ -96,12 +106,27 @@ body{
     line-height: 30px;
     padding: 40px;
 }
-.correct{
+/* .correct{
     color: green;
 }
 .wrong{
     color: red;
-}
+} */
 .material-icons{
     color: white
+}
+.ipmax{
+    display: flex;
+    width: 18%;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom:20px;
+}
+.ipmax .label_input{
+    margin: auto;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
 }
